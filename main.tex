@@ -2,14 +2,20 @@
 
 \title{Presentation Template}
     \subtitle{\textit{A latex template for presentations}}
-\author{Tobiasz Fic}
+\author[T. Fic]{Tobiasz Fic}
+\institute[WUT]{Warsaw University of Technology}
 \date{8 December 2023}
 
 \begin{document}
 
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
 \begin{frame}
     \maketitle
 \end{frame}
+
+\setbeamertemplate{headline}[pwtemplate]
+\setbeamertemplate{footline}[pwtemplate]
 
 \begin{columnframe}{Column slide}
     \begin{column}{0.5\textwidth}
@@ -27,6 +33,8 @@
     \end{column}
 \end{columnframe}
 
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
 \begin{frame}{}
     \centering
     \Large{Thank you for your attention}
